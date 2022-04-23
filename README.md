@@ -37,8 +37,9 @@ This repo relates to the survey paper <[Goal-Conditioned Reinforcement Learning:
 | HER                               | Vector/Image       |          | ✅       |              | https://proceedings.neurips.cc/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Paper.pdf                                                                                                                                                                                                                                                   |
 
 
-## Widely used benchmark environments. Note almost all environments support various kinds of goal structures, i.e.,
-vector, image, language, etc.
+## Widely used benchmark environments. 
+
+Note almost all environments support various kinds of goal structures, i.e., vector, image, language, etc.
 
 | Environment            | Benchmark Type        | Common Used Goal Structure           | Description                                                                | Ref Links                                                                 |
 | ---------------------- | --------------------- | ------------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -68,3 +69,8 @@ vector, image, language, etc.
 | Place Object in Tray   | PyBullet              | Image-based              | A robotic arm puts toys into a tray                                        | https://sites.google.com/view/val-rl                                      |
 | Opening Drawer         | PyBullet              | Image-based              | A robotic arm opens the drawer                                             | https://sites.google.com/view/val-rl                                      |
 | PickandPlace           | PyBullet              | Image-based              | A robotic arm first picks up the block then places it to a target position | https://sites.google.com/view/val-rl                                      |
+Five Object Manipulation         | CLEVR-Robot/Mujoco                                | A point mass agent arranges, orders and sorts 5 fixed objects |
+Diverse Object Manipulation          | CLEVR-Robot/Mujoco                                | A point mass agent orders objects in different shapes and colors \\ \hline
+Playground | Playground | A 2D hand moves and grasps/releases different objects
+VizDoom           |  ViZDoom                                 |  AI bots reach specific place in the first person shooter 3D
+game Doom
