@@ -37,9 +37,10 @@ This repo relates to the survey paper <[Goal-Conditioned Reinforcement Learning:
 | HER                               | Vector/Image       |          | ✅       |              | https://proceedings.neurips.cc/paper/2017/file/453fadbd8a1a3af50a9df4df899537b5-Paper.pdf                                                                                                                                                                                                                                                   |
 
 
-## Widely used benchmark environments
+## Widely used benchmark environments. Note almost all environments support various kinds of goal structures, i.e.,
+vector, image, language, etc.
 
-| Environment            | Benchmark Type        | Goal Structure           | Description                                                                | Ref Links                                                                 |
+| Environment            | Benchmark Type        | Common Used Goal Structure           | Description                                                                | Ref Links                                                                 |
 | ---------------------- | --------------------- | ------------------------ | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | FetchReach             | Gym Robotics/Mujoco   | Vector-based/Image-based | A robotic arm reaches a target position                                    | https://github.com/Farama-Foundation/Gym-Robotics                         |
 | FetchPush              | Gym Robotics/Mujoco   | Vector-based/Image-based | A robotic arm pushes a block to a target position                          | https://github.com/Farama-Foundation/Gym-Robotics                         |
