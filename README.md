@@ -38,6 +38,8 @@ This repo relates to the survey paper <[Goal-Conditioned Reinforcement Learning:
 
 ## Widely used benchmark environments.
 
+Update: Most of these environments has been integrated in [Gymnasium-Robotics](https://robotics.farama.org/).
+
 Note almost all environments support various kinds of goal structures, i.e., vector, image, language, etc.
 
 | Environment                                                                         | Benchmark Type        | Common Used Goal Structure | Description                                                                |
